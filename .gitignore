@@ -1,0 +1,48 @@
+# 虚拟环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 设备凭据与运行数据(重要: 这些包含 token/key/内网 IP, 绝不可提交)
+ac_config.json
+energy.json
+7e_capture.json
+
+# 运行时日志
+panel_debug.log
+
+# 测试/调试产生的截图
+panel_qml*.png
+panel_test.png
+panel_on.png
+panel_dir.png
+panel_heat.png
+panel_preview.png
+panel_scroll.png
+panel_after_click.png
+panel_mode_sheet.png
+panel_vs_shot.png
+panel_bak*.qml
+panel_before*.qml
+*_check.png
+*_compare.png
+corner_*.png
+chip_*.png
+grid_check.png
+header_check.png
+settings_*.png
+err_tip*.png
+no_tip*.png
+win_*.png
+font_check.png
+extracted_check.png
+icon_check.png
+icon_compare.png
+ref_*.png
+dir_*.png
+fan_*.png
+tray_icon_test.png
+
+# 依赖快照(开发环境用, 不是运行时依赖)
+requirements_backup.txt

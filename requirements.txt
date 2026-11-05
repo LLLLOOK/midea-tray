@@ -1,0 +1,5 @@
+PySide6-Essentials==6.12.0
+msmart-ng>=2026.9.0
+midea-local>=12.3.0
+pystray>=0.19.5
+pillow>=12.0.0
